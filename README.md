@@ -1,6 +1,6 @@
-# Slidev Kainos Theme
+# SkillHub Slides
 
-A custom Slidev theme for creating professional presentations.
+Presentation slides for the SkillHub project using a custom Slidev theme.
 
 ## Prerequisites
 
