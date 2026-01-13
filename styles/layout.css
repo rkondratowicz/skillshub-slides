@@ -1,0 +1,82 @@
+/* Century Gothic Font Faces */
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/centurygothic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('/fonts/centurygothic_bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* default theme color */
+  /* can be overrided by uses `themeConfig` option */
+  --slidev-theme-primary: #5d8392;
+  
+  /* main font family */
+  --slidev-theme-font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+}
+
+body {
+  font-family: var(--slidev-theme-font-family);
+  color: #575756;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
+
+.slidev-layout.cover {
+  color: #fff;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  h1 + p {
+    @apply opacity-100;
+  }
+}
+
+.slidev-layout.end {
+  @apply h-full grid;
+  background-color: #283583;
+  color: #fff;
+
+  h1 {
+    @apply text-6xl leading-20;
+    font-weight: 700;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}

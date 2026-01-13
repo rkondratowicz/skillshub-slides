@@ -1,0 +1,36 @@
+{
+  "name": "slidev-theme-slidev-kainos-theme",
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/types": "^52.6.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.6.0",
+    "playwright-chromium": "^1.56.1"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "sans": "Century Gothic",
+        "mono": "Fira Code",
+        "provider": "none"
+      }
+    }
+  }
+}
