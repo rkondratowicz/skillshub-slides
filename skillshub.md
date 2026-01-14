@@ -90,6 +90,33 @@ A centralized skills repository + AI-powered Microsoft Teams agent
 layout: default
 ---
 
+# Architecture
+
+<div class="flex items-center justify-center gap-8 mt-16">
+  <div class="flex flex-col items-center">
+    <img src="https://api.iconify.design/logos/microsoft-teams.svg" class="w-24 h-24" />
+    <p class="mt-4">MS Teams</p>
+  </div>
+  
+  <div class="text-6xl flex items-center">→</div>
+  
+  <div class="flex flex-col items-center">
+    <img src="https://api.iconify.design/mdi/robot.svg" class="w-24 h-24" />
+    <p class="mt-4">Bot</p>
+  </div>
+  
+  <div class="text-6xl flex items-center">→</div>
+  
+  <div class="flex flex-col items-center">
+    <img src="https://api.iconify.design/simple-icons/n8n.svg?color=%23ea4b71" class="w-24 h-24" />
+    <p class="mt-4">n8n</p>
+  </div>
+</div>
+
+---
+layout: default
+---
+
 # DEMO
 
 ---
