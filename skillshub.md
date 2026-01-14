@@ -5,7 +5,7 @@ layout: cover
 
 # SkillsHub
 
-AI-powered skills discovery, where work already happens
+AI-powered skills discovery
 
 ---
 layout: default
@@ -114,7 +114,7 @@ layout: default
 </div>
 
 ---
-layout: default
+layout: center
 ---
 
 # DEMO
@@ -125,8 +125,6 @@ layout: default
 
 # Impact & Scalability
 
-<v-clicks>
-
 **Now**
 - Faster expert discovery
 - Less reliance on personal networks
@@ -136,7 +134,15 @@ layout: default
 - Proactive bot check-ins ("Have you picked up any new skills this month?")
 - Skill trend insights
 
-</v-clicks>
+---
+layout: default
+---
+
+# Impact & Scalability
+
+**Future**
+- Proactive bot check-ins ("Have you picked up any new skills this month?")
+- Skill trend insights
 
 ---
 layout: end
