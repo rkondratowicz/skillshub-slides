@@ -10,10 +10,10 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "slidev build example.md",
-    "dev": "slidev example.md",
-    "export": "slidev export example.md",
-    "screenshot": "slidev export example.md --format png"
+    "build": "slidev build skillshub.md",
+    "dev": "slidev skillshub.md",
+    "export": "slidev export skillshub.md",
+    "screenshot": "slidev export skillshub.md --format png"
   },
   "dependencies": {
     "@slidev/types": "^52.6.0"
